@@ -1,3 +1,4 @@
+    
 var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(input){var output="";var chr1,chr2,chr3,enc1,enc2,enc3,enc4;var i=0;input=Base64._utf8_encode(input);while(i<input.length){chr1=input.charCodeAt(i++);chr2=input.charCodeAt(i++);chr3=input.charCodeAt(i++);enc1=chr1>>2;enc2=((chr1&3)<<4)|(chr2>>4);enc3=((chr2&15)<<2)|(chr3>>6);enc4=chr3&63;if(isNaN(chr2)){enc3=enc4=64;}else if(isNaN(chr3)){enc4=64;}
 output=output+ this._keyStr.charAt(enc1)+ this._keyStr.charAt(enc2)+ this._keyStr.charAt(enc3)+ this._keyStr.charAt(enc4);}
 return output;},decode:function(input){var output="";var chr1,chr2,chr3;var enc1,enc2,enc3,enc4;var i=0;input=input.replace(/[^A-Za-z0-9\+\/\=]/g,"");while(i<input.length){enc1=this._keyStr.indexOf(input.charAt(i++));enc2=this._keyStr.indexOf(input.charAt(i++));enc3=this._keyStr.indexOf(input.charAt(i++));enc4=this._keyStr.indexOf(input.charAt(i++));chr1=(enc1<<2)|(enc2>>4);chr2=((enc2&15)<<4)|(enc3>>2);chr3=((enc3&3)<<6)|enc4;output=output+ String.fromCharCode(chr1);if(enc3!=64){output=output+ String.fromCharCode(chr2);}
@@ -18,7 +19,34 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="https://www.adult-education.me/2019/09/mu0026a-activity-back-in-insurance.html?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+{var encryptedUrl=Base64.encode(a_to_vi);
+var x=Math.floor((Math.random()*5)+ 1);
+var xxx=null;
+if(x=="1"){xxx="/2019/07/the-erp-implementation-in-manufacturing.html"}
+if(x=="2"){xxx="/2019/07/the-advantages-of-erp-quickbooks.html"}
+if(x=="3"){xxx="/2019/07/4-essential-erp-features-that-you.html"}
+if(x=="4"){xxx="/2019/07/4-reasons-why-you-should-get-rely-on.html"}
+if(x=="5"){xxx="/2019/07/know-more-about-erp-xero-best-online.html"}
+if(x=="6"){xxx="/2019/07/all-about-erp-sap-that-you-should-know.html"}
+if(x=="7"){xxx="/2019/07/how-erp-database-is-shared-across.html"}
+if(x=="8"){xxx="/2019/07/reap-benefits-of-erp-system-by.html"}
+if(x=="9"){xxx="/2019/07/designing-best-erp-software.html"}
+if(x=="10"){xxx="/2019/07/what-you-need-to-know-about-erp-design.html"}
+if(x=="11"){xxx="/2019/07/the-main-modules-which-help-erp.html"}
+if(x=="12"){xxx="/2019/07/the-implementation-of-erp-in-supply.html"}
+if(x=="13"){xxx="/2019/07/about-erp-model.html"}
+if(x=="14"){xxx="/2019/07/the-differences-between-erp-vs-mrp.html"}
+if(x=="15"){xxx="/2019/07/the-main-erp-components-that-you-need.html"}
+if(x=="16"){xxx="/2019/07/the-general-role-of-erp-manager-in.html"}
+if(x=="17"){xxx="/2019/07/the-pros-and-cons-of-erp-for-small.html"}
+if(x=="18"){xxx="/2019/07/erp-vs-crm-how-they-are-similar-and-how.html"}
+if(x=="19"){xxx="/2019/07/why-is-erp-enterprise-resource-planning.html"}
+if(x=="20"){xxx="/2019/07/how-to-generate-accurate-and-reliable.html"}
+if(x=="21"){xxx="/2019/07/why-intuitive-erp-dashboard-is-essential.html"}
+if(x=="22"){xxx="/2019/07/stages-of-erp-implementation-life-cycle.html"}
+if(x=="23"){xxx="/2019/07/the-definition-benefits-of-erp-system.html"}
+if(x=="24"){xxx="/2019/07/5-things-that-differ-erp-vs-accounting.html"}
+if(x=="25"){xxx="/2019/07/what-you-should-know-about-evolution-of.html"}a_to_ve[i].href="https://erp.serialfor.me"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
